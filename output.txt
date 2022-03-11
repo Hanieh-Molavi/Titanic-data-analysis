@@ -1,0 +1,120 @@
+        sex   age  sibsp  parch     fare embarked   class    who  alone  survived
+0      male  22.0      1      0   7.2500        S   Third    man  False         0
+1    female  38.0      1      0  71.2833        C   First  woman  False         1
+2    female  26.0      0      0   7.9250        S   Third  woman   True         1
+3    female  35.0      1      0  53.1000        S   First  woman  False         1
+4      male  35.0      0      0   8.0500        S   Third    man   True         0
+..      ...   ...    ...    ...      ...      ...     ...    ...    ...       ...
+886    male  27.0      0      0  13.0000        S  Second    man   True         0
+887  female  19.0      0      0  30.0000        S   First  woman   True         1
+888  female   NaN      1      2  23.4500        S   Third  woman  False         0
+889    male  26.0      0      0  30.0000        C   First    man   True         1
+890    male  32.0      0      0   7.7500        Q   Third    man   True         0
+
+[891 rows x 10 columns]
+
+ *____________________ list of columns names ____________________*
+
+  0  :  sex
+  1  :  age
+  2  :  sibsp
+  3  :  parch
+  4  :  fare
+  5  :  embarked
+  6  :  class
+  7  :  who
+  8  :  alone
+  9  :  survived
+
+ *______________________ type of columns   ______________________*
+
+sex          object
+age         float64
+sibsp         int64
+parch         int64
+fare        float64
+embarked     object
+class        object
+who          object
+alone          bool
+survived      int64
+dtype: object
+
+ *______________________ boolean columns   ______________________*
+
+  survived
+  10 all columns
+  ----------------------
+  1 are boolean columns
+  2 are float columns
+  2 are int columns
+  5 are object columns
+
+ *_________________ mean of numerical columns   _________________*
+
+
+  age mean is: 29.69911764705882
+
+  fare mean is: 32.204207968574636
+
+ *_________________ max of numerical columns   _________________*
+
+
+  age max is: 80.0
+
+  fare max is: 512.3292
+
+ *_________________ min of numerical columns   _________________*
+
+
+  age min is: 0.42
+
+  fare min is: 0.0
+
+ *___________  standard deviation of numerical columns ___________*
+
+
+  age std is: 14.526497332334042
+
+  fare std is: 49.6934285971809
+
+ *_________________ uniqe count of columns   _________________*
+
+
+  sex  count is: 2
+
+  age  count is: 88
+
+  sibsp  count is: 7
+
+  parch  count is: 7
+
+  fare  count is: 248
+
+  embarked  count is: 3
+
+  class  count is: 3
+
+  who  count is: 3
+
+  alone  count is: 2
+
+  survived  count is: 2
+
+*______________  median of numerical columns _______________*
+
+
+  age median is: 28.0
+
+  fare median is: 14.4542
+
+ *_______________  variance of numerical columns _______________*
+
+
+  age variance is: 211.01912474630802
+
+  fare variance is: 2469.436845743116
+
+ *____________________ Similority ____________________________*
+
+ Manhattan distance for fare is:  16466.884
